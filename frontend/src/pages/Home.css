@@ -16,7 +16,10 @@ body {
 .homeAbout {
   font-family: 'Sora', sans-serif;  
   text-align: center;
-  margin-top: -2.25em;
+  padding-top: -2.25em;
+  padding-bottom: 2.25em;
+  background-color: #343434;
+  border-radius: 0.5em;
 }
 
 .homeAbout #h1 {
@@ -39,6 +42,7 @@ body {
 
 
 .imgButtonleft {
+  border-radius: 1.5em;
   height: auto;
   width: 45%;
   float: left;
@@ -57,6 +61,7 @@ body {
 }
 
 .imgButtonright {
+  border-radius: 1.5em;
   height: auto;
   width: 45%;
   float: right;
@@ -67,4 +72,26 @@ body {
 .imgButtonright:hover {
   transform: scale(1.05);
   opacity: 70%;
+}
+
+@media screen and (max-width: 750px) {
+
+  .imgButtons {
+    padding-top: 3em;
+    padding-bottom: 2em;
+  }
+
+  .imgButtonleft {
+    border-radius: 1.5em;
+    width: 80%;
+    padding-left: 2em;
+    transition:1s;
+    margin-bottom: 3em;
+  }
+
+  .imgButtonright {
+    border-radius: 1.5em;
+    width: 80%;
+
+  }
 }

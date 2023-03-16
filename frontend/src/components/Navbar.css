@@ -28,12 +28,51 @@
     text-transform:uppercase;
 }
 
+.navLink:hover {
+    color: #D40000;
+}   
+
+
 .faceLink {
     margin-top: -1.3em;
     padding-left: 1.2em;
     float: right;
+    transition:0.6s;
 }
 
-.navLink:hover {
-    color: #3498db;
-  }
+.faceLink:hover {
+    transform: scale(1.15);
+}
+
+@media screen and (max-width: 750px) {
+    .Navbar {
+        display:inline-block;
+        width: 100%;
+        padding: 1em;
+        font-family: 'Sora', sans-serif;  
+        font-size:13px;
+        text-align: center;
+    }
+
+    .navLogo {
+        height: 7.5em;
+
+    }
+
+    .Links {
+        float:none;
+        left: 50%;
+        right: 50%;
+    }
+
+    .navLink {
+        text-align: center;
+    }
+
+    .faceLink {
+        position:absolute;
+        top: 25px;
+        right: 50px;
+    }
+
+}

@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link to="/" className='navLink'>Home</Link>
         <Link to="/about" className='navLink'>About</Link>
         <Link to="/gigs" className='navLink'>Gigs</Link>
-        <Link to="https://www.facebook.com/TrioHankkijat">
+        <Link to="https://www.facebook.com/TrioHankkijat" target="_blank" rel="noreferrer">
           <img src={Faceicon} className='faceLink'></img>
         </Link>
       </nav>
