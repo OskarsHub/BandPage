@@ -1,18 +1,22 @@
 .Navbar {
     position: absolute;
-    background-color: #201E20;
     display:inline-block;
     width: 100%;
-    margin-top: -8px;
     padding: 1em;
-    font-family: Arial, sans-serif;  
+    font-family: 'Sora', sans-serif;  
     font-size:12px;
 }
 
 .navLogo {
-    height: 4.5em;
+    height: 5.5em;
     padding-left: 0.5em;
     padding-right: 5em;
+}
+
+.Links {
+    float: right;
+    padding-top: 2em;
+    padding-right: 6em;
 }
 
 .navLink {
@@ -22,6 +26,12 @@
     font-size: 1.4em;
     padding:25px;
     text-transform:uppercase;
+}
+
+.faceLink {
+    margin-top: -1.3em;
+    padding-left: 1.2em;
+    float: right;
 }
 
 .navLink:hover {
