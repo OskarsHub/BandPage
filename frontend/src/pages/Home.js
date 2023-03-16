@@ -1,7 +1,12 @@
+import Bandimage5 from "../images/Bandimage3.jpg"
+import './Home.css'
+
 const Home = () => {
     return (
-      <div>
-        <h1>Home</h1>
+      <div className="homeContainer">
+        <div className="banner">
+          <img src={Bandimage5} className='bandHome'></img>
+        </div>
       </div>
     );
   };

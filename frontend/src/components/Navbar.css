@@ -1,0 +1,29 @@
+.Navbar {
+    position: absolute;
+    background-color: #201E20;
+    display:inline-block;
+    width: 100%;
+    margin-top: -8px;
+    padding: 1em;
+    font-family: Arial, sans-serif;  
+    font-size:12px;
+}
+
+.navLogo {
+    height: 4.5em;
+    padding-left: 0.5em;
+    padding-right: 5em;
+}
+
+.navLink {
+    color:white;
+    text-decoration:none;
+    transition: color 0.3s ease-out;
+    font-size: 1.4em;
+    padding:25px;
+    text-transform:uppercase;
+}
+
+.navLink:hover {
+    color: #3498db;
+  }

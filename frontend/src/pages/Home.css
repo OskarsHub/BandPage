@@ -1,0 +1,13 @@
+body {
+    background-color: #0f0e0f;
+    overflow-y: hidden;
+    overflow-x: hidden
+  }
+
+.bandHome {
+  border-radius: 4px;
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  overflow-y: hidden;
+}
