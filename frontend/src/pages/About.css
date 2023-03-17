@@ -1,0 +1,143 @@
+.AboutContainer {
+    font-family: 'Sora', sans-serif;
+}
+
+.bandinfo {
+    padding-top: 7em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.bandinfo #h1 {
+    color: white;
+    padding-bottom: 1em;
+}
+
+.paragraph {
+    color: whitesmoke;
+    font-size:20px;
+}
+
+.members {
+    padding-top: 3em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.members #h1 {
+    color: white;
+    padding-bottom: 1em;
+}
+
+.member1 {
+    float: left;
+    padding: 2em;
+    margin-bottom: 5em;
+    background-color: #333333;
+    color: whitesmoke;
+    border-radius: 2em;
+    text-align: left;
+    font-size:20px;
+}
+
+.member1 #img {
+    border-radius: 2em;
+    float: left;
+    padding-right: 2em;
+}
+
+.members #text {
+    margin-top: 2em;
+    max-width: 1500px;
+}
+
+.member2 {
+    float: right;
+    padding: 2em;
+    margin-bottom: 5em;
+    background-color: #333333;
+    color: whitesmoke;
+    border-radius: 2em;
+    text-align: right;
+    font-size:20px;
+}
+
+.member2 #img {
+    border-radius: 2em;
+    float: right;
+    padding-left: 2em;
+}
+
+
+.member3 {
+    float: left;
+    padding: 2em;
+    margin-bottom: 2em;
+    background-color: #333333;
+    color: whitesmoke;
+    border-radius: 2em;
+    text-align: left;
+    font-size:20px;
+}
+
+.member3 #img {
+    border-radius: 2em;
+    float: left;
+    padding-right: 2em;
+}
+
+@media screen and (max-width: 1150px) {
+
+    .bandinfo #h1 {
+        padding-bottom: 0.3em;
+    }
+
+    .paragraph {
+        font-size:16px;
+    }
+
+    .bandinfo {
+        padding-top: 14em;
+        text-align: center;
+    }
+    
+    .members {
+        text-align: center;
+    }
+    
+    .member1 #img {
+        border-radius: 2em;
+        float: none;
+        padding-right: 0em;
+        display: block;
+        margin-top: 1em;
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .members #text {
+        margin-top: 2em;
+        font-size: 15px;
+    }
+
+    .member2 #img {
+        border-radius: 2em;
+        float: none;
+        padding-left: 0em;
+        display: block;
+        margin-top: 1em;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .member3 #img {
+        border-radius: 2em;
+        float: none;
+        padding-right: 0em;
+        display: block;
+        margin-top: 1em;
+        width: 100%;
+        object-fit: contain;
+    }
+
+}
