@@ -31,7 +31,7 @@ const About = () => {
         <div className="members">
           <h1 id="h1">Keitä olemme?</h1>
           <div className="member1">
-            <img src={Mattila} id="img"  alt="image of bandmember"></img>
+            <img src={Mattila} id="img"  alt="bandmember"></img>
             <h2>Kalle Mattila</h2>
             <h3>-Kitara ja laulu-</h3>
             <p id="text">
@@ -41,7 +41,7 @@ const About = () => {
             </p>
           </div>
           <div className="member2">
-            <img src={Hakalin} id="img" alt="image of bandmember"></img>
+            <img src={Hakalin} id="img" alt="bandmember"></img>
             <h2>Joonatan Hakalin</h2>
             <h3>-Basso-</h3>
             <p id="text">
@@ -52,7 +52,7 @@ const About = () => {
             </p>
           </div>
           <div className="member3">
-            <img src={Kainu} id="img" alt="image of bandmember"></img>
+            <img src={Kainu} id="img" alt="bandmember"></img>
             <h2>Oskari Kainulainen</h2>
             <h3>-Rummut-</h3>
             <p id="text">

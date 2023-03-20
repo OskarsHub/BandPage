@@ -16,7 +16,7 @@ const Home = () => {
       >
         <Navbar/>
         <div className="banner">
-          <img src={Bandimage5} className='bandHome' alt="Whole screen image for homepage"></img>
+          <img src={Bandimage5} className='bandHome' alt="Band banner for homepage"></img>
         </div>
         <div className="homeAbout">
           <h1 id="h1">Trio Hankkijat</h1>
@@ -24,10 +24,10 @@ const Home = () => {
         </div>
         <div className="imgButtons">
           <Link to="/about">
-            <img src={AboutButton} className='imgButtonleft' alt="image that is link for About page"></img>
+            <img src={AboutButton} className='imgButtonleft' alt="link for About page"></img>
           </Link>
           <Link to="/gigs">
-            <img src={GigsButton} className='imgButtonright'  alt="image that is link for Gigs page"></img>
+            <img src={GigsButton} className='imgButtonright'  alt="link for Gigs page"></img>
           </Link>
         </div>
       </motion.div>
