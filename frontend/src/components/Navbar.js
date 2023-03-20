@@ -5,14 +5,14 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-      <div className="Navbar">
-      <img src={Logo} className='navLogo'/>
+      <div className="Navbar" id='Navbar'>
+      <img src={Logo} className='navLogo'  alt="Band logo"/>
       <nav className="Links">
         <Link to="/" className='navLink'>Home</Link>
         <Link to="/about" className='navLink'>About</Link>
         <Link to="/gigs" className='navLink'>Gigs</Link>
         <Link to="https://www.facebook.com/TrioHankkijat" target="_blank" rel="noreferrer">
-          <img src={Faceicon} className='faceLink'></img>
+          <img src={Faceicon} className='faceLink'  alt="Facebook icon"></img>
         </Link>
       </nav>
       </div>

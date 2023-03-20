@@ -7,6 +7,7 @@ This is a simple frontend webpage for a band that presents them, gives informati
     Home page that welcomes users to site.
     About page that shows info of the band and it's members.
     Gigs page with upcoming events.
+    Admin page where you can add, edit and delete gigs shown on Gigs page.
 
 ## Getting Started
 
@@ -24,6 +25,7 @@ To use the band webpage, simply navigate to the different pages using the naviga
     Home: displays band with image and serves as navigation hub for rest of the site.
     About: showcases the band and it's members.
     Gigs: displays upcoming gigs dates.
+    Admin: To use: Go to http://localhost:3000/AdminPage
 
 ## Technologies Used
 

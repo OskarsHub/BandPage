@@ -2,7 +2,8 @@
 
 body {
     background-color: #111111;
-    overflow-x: hidden
+    overflow-x: hidden;
+    margin: 0;
   }
 
 .bandHome {
@@ -20,6 +21,7 @@ body {
   padding-bottom: 2.25em;
   background-color: #333333;
   border-radius: 0.5em;
+  margin: 1em;
 }
 
 .homeAbout #h1 {
@@ -39,6 +41,7 @@ body {
   padding-bottom: 2em;
   display:inline-block;
   overflow: hidden;
+  margin: 1em;
 }
 
 

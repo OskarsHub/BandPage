@@ -1,12 +1,19 @@
+import { motion } from "framer-motion"
+
 import Mattila from "../images/Mattila.png"
 import Hakalin from "../images/Hakalin.png"
 import Kainu from "../images/Kainu.png"
 
+import Navbar from "../components/Navbar";
 import './About.css'
 
 const About = () => {
     return (
-      <div className="AboutContainer">
+      <motion.div className="AboutContainer"
+      initial={{ opacity: 0}}
+      animate={{ opacity: 1}}
+      >
+        <Navbar/>
         <div className="bandinfo">
         <h1 id="h1">Tietoa meistä</h1>
           <p className="paragraph">Olemme Trio Hankkijat, kolme yläasteella tutustunutta 
@@ -24,7 +31,7 @@ const About = () => {
         <div className="members">
           <h1 id="h1">Keitä olemme?</h1>
           <div className="member1">
-            <img src={Mattila} id="img"></img>
+            <img src={Mattila} id="img"  alt="image of bandmember"></img>
             <h2>Kalle Mattila</h2>
             <h3>-Kitara ja laulu-</h3>
             <p id="text">
@@ -34,7 +41,7 @@ const About = () => {
             </p>
           </div>
           <div className="member2">
-            <img src={Hakalin} id="img"></img>
+            <img src={Hakalin} id="img" alt="image of bandmember"></img>
             <h2>Joonatan Hakalin</h2>
             <h3>-Basso-</h3>
             <p id="text">
@@ -45,7 +52,7 @@ const About = () => {
             </p>
           </div>
           <div className="member3">
-            <img src={Kainu} id="img"></img>
+            <img src={Kainu} id="img" alt="image of bandmember"></img>
             <h2>Oskari Kainulainen</h2>
             <h3>-Rummut-</h3>
             <p id="text">
@@ -56,7 +63,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
+      </motion.div>
     );
   };
   

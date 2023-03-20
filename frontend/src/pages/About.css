@@ -11,6 +11,7 @@
 .bandinfo #h1 {
     color: white;
     padding-bottom: 1em;
+    margin-left: 0.4em;
 }
 
 .paragraph {
@@ -27,6 +28,7 @@
 .members #h1 {
     color: white;
     padding-bottom: 1em;
+    margin-left: 0.4em;
 }
 
 .member1 {
@@ -90,6 +92,7 @@
 
     .bandinfo #h1 {
         padding-bottom: 0.3em;
+        margin-left: 0em;
     }
 
     .paragraph {
@@ -103,6 +106,12 @@
     
     .members {
         text-align: center;
+    }
+
+    .members #h1 {
+        color: white;
+        padding-bottom: 1em;
+        margin-left: 0em;
     }
     
     .member1 #img {
