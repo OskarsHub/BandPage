@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Sora&display=swap');
 
-body {
+body, html {
     background-color: #111111;
     overflow-x: hidden;
     margin: 0;
@@ -54,11 +54,6 @@ body {
   transition:1s;
 }
 
-.imgTextLeft {
-  left: 30%;
-  bottom: 15%;
-}
-
 .imgButtonleft:hover {
   transform: scale(1.05);
   opacity: 70%;
@@ -96,6 +91,5 @@ body {
   .imgButtonright {
     border-radius: 1.5em;
     width: 80%;
-
   }
 }

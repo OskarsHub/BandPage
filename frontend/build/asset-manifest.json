@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.963c794b.css",
+    "main.js": "/static/js/main.552bbdcb.js",
+    "static/media/Hakalin.png": "/static/media/Hakalin.1921cd0362819f3b2176.png",
+    "static/media/Kainu.png": "/static/media/Kainu.d0c9eec490ad641a410d.png",
+    "static/media/AboutButton.jpg": "/static/media/AboutButton.11d61e8bf8d965c787d7.jpg",
+    "static/media/Mattila.png": "/static/media/Mattila.d367385d79b21c2df511.png",
+    "static/media/GigsButton.jpg": "/static/media/GigsButton.0709a545cde44a30386c.jpg",
+    "static/media/Bandimage3.jpg": "/static/media/Bandimage3.bf145dc57c425225cf49.jpg",
+    "static/media/Logo.png": "/static/media/Logo.8a036dc2dd4406bb26f0.png",
+    "index.html": "/index.html",
+    "main.963c794b.css.map": "/static/css/main.963c794b.css.map",
+    "main.552bbdcb.js.map": "/static/js/main.552bbdcb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.963c794b.css",
+    "static/js/main.552bbdcb.js"
+  ]
+}
